@@ -1,0 +1,257 @@
+.fishing {
+  padding: 0 70px;
+  width: 100%;
+}
+@media screen and (max-width: 880px) {
+  .fishing {
+    padding: 0 50px;
+  }
+}
+@media screen and (max-width: 577px) {
+  .fishing {
+    padding: 0 30px;
+  }
+}
+
+.fishing__subtitle {
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 880px) {
+
+}
+
+.fishing__subtitle_describe {
+  margin: 0 auto 30px;
+  max-width: 1280px;
+  text-align: center;
+}
+
+.fishing__wrapper_title {
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.fishing__wrapper_subtitle {
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.fishing__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fishing__wrapper_one {
+  max-width: 405px;
+  max-height: 489px;
+  margin: 0 auto;
+}
+
+.fishing__wrapper_two {
+  margin: 0 auto;
+  max-width: 471px;
+  max-height: 570px;
+}
+
+.fishing__wrapper_three {
+  margin: 0 auto;
+  max-width: 723px;
+  max-height: 680px;
+}
+
+.fishing__wrapper_for {
+  margin: 0 auto;
+  max-width: 637px;
+}
+
+
+.fishing__price {
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+.fishing__price_describe {
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0 auto 30px;
+  max-width: 1150px;
+}
+
+.fishing__price_wrapper {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.fishing__price_title {
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.fishing__image__bear {
+  max-width: 460px;
+  max-height: 593px;
+}
+
+.fishing__image {
+  max-width: 691px;
+  max-height: 422px;
+}
+
+@media screen and (max-width: 1360px) {
+  .fishing__image {
+    width: 100%;
+    height: auto;
+  }
+}
+.fishing__img_bear {
+  max-width: 722px;
+  max-height: 743px;
+}
+@media screen and (max-width: 800px) {
+  .fishing__image__bear {
+    width: 100%;
+    height: auto;
+  }
+  .fishing__img_bear {
+    width: 100%;
+    height: auto;
+  }
+  .fishing__img_bears {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .fishing__price_wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.fishing__price_list,
+.fishing__list {
+  text-align: center;
+  list-style-type: none;
+}
+
+.fishing__head,
+.fishing__nature_title {
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.fishing__nature {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 1026px) {
+  .fishing__subtitle_describe {
+    margin: 0 auto 0px;
+  }
+  .fishing__wrapper_title {
+    margin-top: 0px;
+  }
+  .fishing__price {
+    margin-top: 50px;
+  }
+  .fishing__price_describe {
+    margin: 0 auto 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fishing__wrapper_title {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .fishing__wrapper_subtitle {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .fishing__price_list {
+    font-size: 16px;
+  }
+  .fishing__price_describe {
+    font-size: 16px;
+  }
+  .fishing__price {
+    font-size: 26px;
+  }
+  .fishing__list {
+    font-size: 16px;
+  }
+  .fishing__nature {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .fishing__subtitle_describe {
+    margin: 0 auto 15px;
+  }
+  .fishing__wrapper_three {
+    margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 450px) {
+
+
+  .fishing__price_describe {
+    font-size: 12px;
+    margin: 0 auto 15px;
+    max-width: 1150px;
+  }
+  .fishing__price {
+    font-size: 22px;
+    margin-top: 50px;
+  }
+  .fishing__price_list {
+    font-size: 12px;
+  }
+
+  .fishing__nature_title {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+  .fishing__list {
+    font-size: 12px;
+  }
+
+  .fishing__nature {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 357px) {
+  .fishing__wrapper_three {
+    margin-bottom: 200px;
+  }
+}

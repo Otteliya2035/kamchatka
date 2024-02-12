@@ -1,0 +1,216 @@
+.contact__section {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 0 70px;
+}
+
+.contact__form {
+  flex: 1;
+  padding: 20px;
+}
+
+.contact__title {
+  color: #fff;
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 700;
+}
+
+.input__group {
+  margin: 10px 0;
+}
+
+.input__group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.input__group input,
+textarea {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 20px;
+}
+
+.input__group input::placeholder {
+  color: #999;
+}
+
+.input__group input:focus {
+  outline: none;
+}
+
+.contact__image {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
+
+button {
+  border-radius: 20px;
+  background: #936348;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  max-width: 708px;
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали */
+  justify-content: center; /* Выравнивание по горизонтали */
+}
+
+.contact__section {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.contact__image {
+  flex: 1;
+  background-image: url("../../../images/Bear.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.input__group__group {
+  margin-right: 30px;
+  font-size: 14px;
+}
+
+.contact__button {
+  width: 80%; /* Ширина кнопки */
+  max-width: 500px; /* Максимальная ширина кнопки */
+  height: 70px;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 450px;
+  background-color: #936348;
+  transition: background-color 0.3s; /* Плавное изменение цвета и тени при наведении */
+  border: 2px solid #58b368; /* Исходный цвет границы */
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали */
+  justify-content: center; /* Выравнивание по горизонтали */
+  margin: 0 auto; /* Центрирование по горизонтали */
+  margin-top: 450px;
+}
+
+.contact__button:hover {
+  background-color: #58b368; /* Цвет при наведении */
+  border: 2px solid #58b368; /* Цвет границы при наведении */
+}
+
+.button__container {
+  width: 100%;
+}
+.button-container_form{
+  display: none;
+  width: 100%;
+}
+.contact__button_form {
+  display: none;
+  width: 90%; /* Ширина кнопки */
+  max-width: 500px; /* Максимальная ширина кнопки */
+  height: 50px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 450px;
+  background-color: #936348;
+  transition: background-color 0.3s; /* Плавное изменение цвета и тени при наведении */
+  border: 2px solid #58b368; /* Исходный цвет границы */
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали */
+  justify-content: center; /* Выравнивание по горизонтали */
+  margin: 0 auto; /* Центрирование по горизонтали */
+  margin-top: 50px;
+}
+
+.contact__button_form:hover {
+  background-color: #58b368; /* Цвет при наведении */
+  border: 2px solid #58b368; /* Цвет границы при наведении */
+}
+.error__message{
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1130px) {
+  .contact__section {
+    padding: 0 50px;
+  }
+  .contact__button {
+    margin-top: 400px;
+  }
+
+  .contact__title {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .contact__title {
+    font-size: 36px;
+  }
+  .input__group label {
+    font-size: 20px;
+  }
+  .contact__form {
+    max-width: 333px;
+  }
+  .contact__button {
+    margin-top: 370px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .contact__title {
+    font-size: 36px;
+  }
+  .input__group label {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .contact__section {
+    padding: 0 30px;
+  }
+  .input__group__group {
+    font-size: 12px;
+  }
+
+}
+@media screen and (max-width: 700px) {
+  .contact__section {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .contact__image {
+display: none;
+  }
+
+  .button-container_form{
+  display: block;
+  }
+}
+

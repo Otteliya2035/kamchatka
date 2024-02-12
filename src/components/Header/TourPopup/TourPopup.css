@@ -1,0 +1,25 @@
+
+.tour-popup {
+  position: fixed;
+  background: #3e5cc9;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  z-index: 11;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.tour-popup.active {
+  opacity: 1;
+  transform: translateY(150px);
+}
+.tour-popup-content {
+  background: #3e5cc9;
+  padding: 20px;
+  text-align: center;
+}
+
+.tour-popup-item {
+  margin-bottom: 30px;
+  list-style-type: none;
+}

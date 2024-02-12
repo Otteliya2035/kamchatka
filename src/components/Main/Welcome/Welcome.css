@@ -1,0 +1,84 @@
+.welcome {
+  max-width: 100%;
+  height: 100vh;
+  background-image: url("../../../images/volcano.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+.welcome__title {
+  max-width: 586px;
+  max-height: 136px;
+  padding-top: 90px;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  padding-right: 70px;
+}
+.welcome__subtitle {
+  max-width: 416px;
+  max-height: 175px;
+  padding-top: 600px;
+  padding-left: 70px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+}
+
+@media screen and (max-width: 1180px) {
+  .welcome__title {
+    font-size: 32px;
+  }
+  .welcome__subtitle {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .welcome {
+    background-image: url("../../../images/Корякский\ вулкан.jpg");
+    padding: 0 50px;
+  }
+  .welcome__subtitle {
+    font-size: 28px;
+    max-width: 1816px;
+    padding-top: 470px;
+  }
+  .welcome__title {
+    font-size: 18px;
+    max-width: 2000px;
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .welcome {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 70px;
+  }
+  .welcome__title {
+    max-width: 100%;
+  }
+  .welcome__subtitle {
+    max-width: 100%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 455px) {
+  .welcome {
+    padding: 0 30px;
+  }
+  .welcome__title {
+    font-size: 16px;
+  }
+  .welcome__subtitle {
+    font-size: 16px;
+  }
+}

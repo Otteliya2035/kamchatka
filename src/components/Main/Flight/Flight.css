@@ -1,0 +1,75 @@
+.flight {
+  margin-bottom: 95px;
+  padding: 0 70px;
+}
+.flight__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.flight__title {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 95px;
+  margin-bottom: 50px;
+}
+.flight__links {
+  display: flex;
+  flex-direction: column;
+}
+.flight__linK {
+  color: #5015e6;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.flight__name {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.flight__list {
+  list-style: none;
+  color: #070606;
+  text-align: center;
+  font-size: 20px;
+}
+.flight-info__time-difference {
+  text-align: center;
+}
+.flight__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  .flight__container {
+    flex-direction: column;
+  }
+  .flight__name {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flight__title {
+    font-size: 22px;
+    margin-top: 55px;
+  }
+  .flight__list {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .flight__list {
+    font-size: 12px;
+  }
+}
