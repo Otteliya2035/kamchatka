@@ -9,6 +9,7 @@ function Header() {
   const [popupVisible, setPopupVisible] = useState(false);
   const [selectedTour, setSelectedTour] = useState(null);
   const footerRef = useRef(null);
+  const contactRef = useRef(null);
 
   const openPopup = (tour) => {
     setSelectedTour(tour);
@@ -22,6 +23,9 @@ function Header() {
 
   const scrollToFooter = () => {
     footerRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+  const scrollToContact = () => {
+   contactRef.current.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -37,13 +41,14 @@ function Header() {
           </li>
           <li className="nav-item"><Link to="/tips">Советы туристам</Link></li>
           <li className="nav-item"><a href="#footer" onClick={scrollToFooter}>Контакты</a></li>
-          <li className="nav-item"><a href="#footer" onClick={scrollToFooter}>Заказ тура</a></li>
+          <li className="nav-item"><a href="#contact" onClick={scrollToContact}>Заказ тура</a></li>
         </ul>
       </nav>
       {popupVisible && (
         <TourPopup tour={selectedTour} onClose={closePopup}  />
       )}
       <div ref={footerRef}></div>
+      <div ref={contactRef}></div>
     </header>
   );
 }

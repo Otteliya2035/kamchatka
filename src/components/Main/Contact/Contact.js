@@ -90,7 +90,7 @@ const validateApplication = () => {
 };
 
   return (
-    <section className="contact__section">
+    <section className="contact__section" id="contact">
       <div className="contact__form">
         <h2 className='contact__title'>Есть вопросы? Задавайте!</h2>
         <form onSubmit={handleSubmit} className='contact__container'>

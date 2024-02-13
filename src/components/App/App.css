@@ -19,6 +19,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: normal;
+  scroll-behavior: smooth;
 }
 
 .tour__link {
@@ -45,6 +46,14 @@
 .tour-details {
 font-size: 30px;
 }
+.tour__day_title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
 @media screen and (max-width: 768px) {
   .tour__link {
     padding-top: 10px;
@@ -57,6 +66,11 @@ font-size: 30px;
   }
   .tour-details {
     font-size: 22px;
+    }
+    .tour__day_title{
+      font-size: 20px;
+      margin-bottom: 10px;
+      margin-top: 20px;
     }
 }
 
@@ -72,6 +86,11 @@ font-size: 30px;
   }
   .tour-details {
     font-size: 18px;
+    }
+    .tour__day_title{
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-top: 10px;
     }
 }
 

@@ -10,15 +10,6 @@
   margin-bottom: 40px;
 }
 
-
-.shiveluch__wrapper_title {
-  text-align: center;
-  font-family: Inter;
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  margin-top: 30px;
-}
 .shiveluch__tour__subtitle_text_four {
   margin-right: 33px;
   margin-top: 15px;
@@ -39,11 +30,6 @@
 
 @media screen and (max-width: 768px) {
 
-  .shiveluch__wrapper_title {
-    font-size: 20px;
-    margin-bottom: 10px;
-    margin-top: 0px;
-  }
   .shiveluch__tour_container {
     margin-top: 30px;
   }

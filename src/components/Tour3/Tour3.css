@@ -13,11 +13,8 @@
 .tolbachik__tour__container_wrapper {
   max-width: 530px;
   text-align: center;
-  font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   margin: 0;
 }
 .tolbachik__tour__container_wrapper_text {
@@ -85,7 +82,7 @@ p {
 .background__content {
   display: flex;
   padding-top: 30px;
-  padding-left: 480px;
+  padding-left: 420px;
   padding-right: 10px;
   height: 500px;
 }
@@ -173,12 +170,11 @@ p {
 @media screen and (max-width: 768px) {
   .background__content {
     padding-top: 20px;
-    padding-left: 280px;
+    padding-left: 220px;
     padding-right: 10px;
     font-size: 16px;
     height: 400px;
   }
-
 
   .tolbachik__text {
     font-size: 20px;
@@ -198,8 +194,6 @@ p {
   }
 }
 @media screen and (max-width: 450px) {
-
-
   .tolbachik__text {
     font-size: 18px;
   }
@@ -211,7 +205,7 @@ p {
   }
   .background__content {
     padding-top: 20px;
-    padding-left: 150px;
+    padding-left: 90px;
     padding-right: 10px;
     font-size: 12px;
     height: 300px;
@@ -221,8 +215,6 @@ p {
     font-size: 12px;
   }
   .tolbachik__tour__container {
-
     margin-top: 10px;
-
   }
 }

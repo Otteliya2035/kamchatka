@@ -4,6 +4,7 @@ import bear_by_river from "../../images/bear_by_river.png";
 import bear_in_river from "../../images/bear_in_river.png";
 import compass from "../../images/compass.png";
 import bears from "../../images/bears.png";
+import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton";
 function Tour1() {
   return (
     <div className="fishing">
@@ -16,7 +17,7 @@ function Tour1() {
       </p>
       <div className="fishing__container">
         <div className="fishing__wrapper_one">
-          <h3 className="fishing__wrapper_title">День 1: Знакомство</h3>
+          <h3 className="tour__day_title">День 1: Знакомство</h3>
           <p className="fishing__wrapper_subtitle">
             После встречи в аэропорту вас отвезут в г. Елизово. Вы посетите
             супермаркет. Предлагаемое размещение на базе Hostel Park.
@@ -34,7 +35,7 @@ function Tour1() {
         </div>
         <img src={bear_by_river} className='fishing__image__bear' alt="Медведь у реки" />
         <div className="fishing__wrapper_two">
-          <h3 className="fishing__wrapper_title">День 2: Длительный переезд</h3>
+          <h3 className="tour__day_title">День 2: Длительный переезд</h3>
           <p className="fishing__wrapper_subtitle">
             (10-12 часов в пути, в зависимости от дороги и количества остановок)
             Подъем, самостоятельный завтрак (перекус). Выезд в 07.30. По пути мы
@@ -53,7 +54,7 @@ function Tour1() {
         </div>
         <img className="fishing__img_bear" src={bear_in_river} alt="Медведь в реке" />
         <div className="fishing__wrapper_three">
-          <h3 className="fishing__wrapper_title">
+          <h3 className="tour__day_title">
             День 3 – 5 Акклиматизация, подготовительные мероприятия, Рыбалка
           </h3>
           <p className="fishing__wrapper_subtitle">
@@ -81,7 +82,7 @@ function Tour1() {
           </p>
         </div>
         <div className="fishing__wrapper_for">
-          <h3 className="fishing__wrapper_title">
+          <h3 className="tour__day_title">
             День 6: Возвращение домой (длительный переезд)
           </h3>
           <p className="fishing__wrapper_subtitle">
@@ -101,7 +102,7 @@ function Tour1() {
             этот день проживание оплачивается самостоятельно. Рекомендуем
             заранее забронировать номера. Возможно размещение в других отелях.
           </p>
-          <h3 className="fishing__wrapper_title">
+          <h3 className="tour__day_title">
             День 7: Рыбный рынок и выезд
           </h3>
           <p className="fishing__wrapper_subtitle">
@@ -179,7 +180,9 @@ function Tour1() {
         заморозков. Ориентируйтесь на все возможные погодные условия — от
         летнего зноя до сильного ветра с холодным осенним дождем и заморозками.
       </p>
+      <ScrollToTopButton />
     </div>
+
   );
 }
 export default Tour1;

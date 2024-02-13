@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import fishinger from '../../images/fisinger.png'
 import lava from '../../images/lava.png'
 import grass from '../../images/grass.png'
+import ScrollToTopButton from '../ScrollToTopButton/ScrollToTopButton';
 function Tips() {
     return (
         <div className="tips-content">
@@ -37,6 +38,7 @@ function Tips() {
             </div>
           </div>
         <img className='tips__grass' src={grass} alt="Травинка покрытая инеем" />
+        <ScrollToTopButton />
       </div>
     );
   }

@@ -7,16 +7,18 @@ import Gallery from "../../components/Main/Gallery/Gallery"
 import Contact from "../../components/Main/Contact/Contact"
 import Footer from "../Footer/Footer"
 import "../../components/Main/Main.css"
+import ScrollToTopButton from "../ScrollToTopButton/ScrollToTopButton"
 function Main() {
     return (
         <main className={'main'}>
-       
+
         <Welcome />
         <Benefits />
         <Flight />
         <Tours />
         <Gallery />
         <Contact />
+        <ScrollToTopButton />
         </main>
     )
 };
